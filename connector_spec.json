@@ -36,6 +36,28 @@
       "helpSection": "Paypal OAuth2 token refresh time"
     },
     {
+      "field": "SERVER_URL",
+      "displayName": "Paypal API Server URL",
+      "type": "String",
+      "minLength": 5,
+      "maxLength": 180,
+      "required": true,
+      "description": "Paypal API Server URL",
+      "example": "https://api-m.paypal.com",
+      "helpSection": "Please provide either https://api-m.sandbox.paypal.com for sandbox and https://api-m.paypal.com for production APIs"
+    },
+    {
+      "field": "AUTH_TYPE",
+      "displayName": "Paypal auth type",
+      "type": "String",
+      "minLength": 2,
+      "maxLength": 30,
+      "required": false,
+      "default": "OAUTH2",
+      "example": "OAUTH2",
+      "helpSection": "Paypal Connector Auth type"
+    },
+    {
       "field": "provider",
       "displayName": "OAuth2 Provider Name",
       "type": "String",
