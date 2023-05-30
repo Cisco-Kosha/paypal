@@ -2,7 +2,7 @@
 
 PayPal is an online payment platform that provides you with APIs and tools to securely integrate payment functionality into your applications, so that you can create seamless and convenient transactions for your users.
 
-The Kosha PayPal connector enables you to perform REST API operations from the PayPal API in your Kosha workflow or custom application. Using the PayPal Mastodon connector, you can directly access the PayPal platform to:
+The Kosha PayPal connector enables you to perform REST API operations from the PayPal API in your Kosha workflow or custom application. Using the PayPal connector, you can directly access the PayPal platform to:
 
 * Create orders
 * Show details about a payment
